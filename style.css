@@ -79,3 +79,23 @@ body{
     background:#d4af37;
     color:black;
 }
+.languages{
+    display:flex;
+    gap:8px;
+    align-items:center;
+}
+
+.languages a{
+    color:white;
+    text-decoration:none;
+    font-size:14px;
+    transition:.3s;
+}
+
+.languages a:hover{
+    color:#d4af37;
+}
+
+.languages span{
+    color:#777;
+}
