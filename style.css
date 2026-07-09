@@ -102,6 +102,9 @@ body{
 .languages span{
     color:#777;
 }
+.hamburger{
+    display:none;
+}
 @media (max-width: 768px){
 
     html, body{
