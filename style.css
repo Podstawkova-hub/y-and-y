@@ -167,8 +167,21 @@ body{
         margin-bottom:38px;
     }
 
-    .button{
-        padding:15px 32px;
-        font-size:15px;
-    }
+   .button{
+    padding:15px 32px;
+    font-size:15px;
+}
+
+.menu.active{
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    top:80px;
+    left:20px;
+    right:20px;
+    background:rgba(0,0,0,.9);
+    padding:20px;
+    border-radius:12px;
+    gap:20px;
+    z-index:999;
 }
