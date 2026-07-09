@@ -102,3 +102,65 @@ body{
 .languages span{
     color:#777;
 }
+@media (max-width: 768px){
+
+    html, body{
+        width:100%;
+        overflow-x:hidden;
+    }
+
+    .navbar{
+        padding:22px 24px;
+        justify-content:space-between;
+    }
+
+    .logo{
+        font-size:30px;
+        letter-spacing:3px;
+    }
+
+    .menu{
+        display:none;
+    }
+
+    .languages{
+        font-size:12px;
+        gap:6px;
+    }
+
+    .languages a{
+        font-size:13px;
+    }
+
+    .hero{
+        height:100vh;
+        background-position:center top;
+    }
+
+    .hero-content{
+        height:calc(100vh - 90px);
+        padding:0 24px;
+    }
+
+    .hero-content h1{
+        font-size:64px;
+        letter-spacing:6px;
+    }
+
+    .hero-content h2{
+        font-size:20px;
+        margin-bottom:10px;
+    }
+
+    .hero-content p{
+        font-size:24px;
+        line-height:1.25;
+        letter-spacing:1px;
+        margin-bottom:38px;
+    }
+
+    .button{
+        padding:15px 32px;
+        font-size:15px;
+    }
+}
