@@ -122,7 +122,12 @@ body{
     .menu{
         display:none;
     }
-
+.hamburger{
+    display:block;
+    font-size:30px;
+    cursor:pointer;
+    color:white;
+}
     .languages{
         font-size:12px;
         gap:6px;
